@@ -1,0 +1,71 @@
+
+.container {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+}
+
+.select_e:hover {
+    border: solid 1px red;
+    border-radius: .3em;
+    box-sizing: border-box;
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.select:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    z-index: 990;
+}
+
+.click {
+    border: solid 1px red !important;
+    z-index: 999;
+}
+
+.game_container {
+    position: absolute;
+    background-color: black;
+}
+
+.automat {
+    position: absolute;
+    top: -10px;
+    left: -40px;
+}
+
+.automat::before {
+    content: "Auto";
+    position: absolute;
+    top: 10px;
+}
+
+.select-field {
+    position: absolute;
+    opacity: 0.2;
+    z-index: 999;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.context_menu {
+    position: absolute;
+    background-color: whitesmoke;
+
+    z-index: 999;
+}
+
+.context_option {
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.context_option:hover {
+    background-color: lightblue;
+}
